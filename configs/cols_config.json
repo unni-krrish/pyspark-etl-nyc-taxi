@@ -1,0 +1,36 @@
+{
+    "req_cols": [
+        "vendor_name",
+        "Trip_Pickup_DateTime",
+        "Trip_Dropoff_DateTime",
+        "Passenger_Count",
+        "Trip_Distance",
+        "Payment_Type",
+        "Fare_Amt",
+        "Tip_Amt",
+        "Tolls_Amt",
+        "Total_Amt"
+    ],
+    "opt_cols": [
+        "Start_Lon",
+        "Start_Lat",
+        "Rate_Code",
+        "store_and_forward",
+        "End_Lon",
+        "End_Lat",
+        "mta_tax",
+        "surcharge"
+    ],
+    "req_col_types": {
+        "vendor_name": "string",
+        "Trip_Pickup_DateTime": "string",
+        "Trip_Dropoff_DateTime": "string",
+        "Passenger_Count": "int",
+        "Trip_Distance": "double",
+        "Payment_Type": "string",
+        "Fare_Amt": "double",
+        "Tip_Amt": "double",
+        "Tolls_Amt": "double",
+        "Total_Amt": "double"
+    }
+}
