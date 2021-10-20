@@ -1,4 +1,4 @@
-# Processing NYC Taxi Dat using PySpark ETL pipeline
+# Processing NYC Taxi Data using PySpark ETL pipeline
 ## Description
 This is an project to extract, transform, and load large amount of data from [NYC Taxi Rides](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) database (Hosted on AWS S3). It extracts data from CSV files of large size (~2GB per month) and applies transformations such as datatype conversions, drop unuseful rows/columns, etc. Finally, the data is written back in parquet format. This saves time for tasks such as machine learning. It also saves a huge amount of space (~97% space reduction from csv to parquet) making it easy to store for downstream tasks.
 
