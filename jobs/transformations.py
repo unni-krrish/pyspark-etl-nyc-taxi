@@ -62,8 +62,8 @@ def remove_negatives(df):
         if n > 0:
             neg_vals[col] = n
             filtered_df = filtered_df.filter(F.col(col) >= 0)
-    print(f"Negative values found in :\n{neg_vals}")
-    print(f"Removed rows with negative values")
+    logger.info(f"Negative values found in :\n{neg_vals}")
+    logger.info(f"Removed rows with negative values")
     return filtered_df
 
 
