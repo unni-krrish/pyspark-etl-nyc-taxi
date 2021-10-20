@@ -1,6 +1,6 @@
 {
     "app_name": "NYCTaxiETL",
-    "input_dir": "gs://unni-spark-bucket-1/data/input/",
-    "output_dir": "gs://unni-spark-bucket-1/data/output/",
-    "logs_dir": "gs://unni-spark-bucket-1/logs/"
+    "input_dir": "",
+    "output_dir": "",
+    "logs_dir": ""
 }
