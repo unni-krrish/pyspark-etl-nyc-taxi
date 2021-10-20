@@ -2,7 +2,7 @@ from time import perf_counter
 import logging
 from jobs.transformations import *
 
-logger = logging.getLogger("logger")
+logger = logging.getLogger("main_logger")
 
 
 def _extract_data(spark, input_fname, app_config):

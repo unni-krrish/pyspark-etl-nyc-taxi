@@ -1,7 +1,7 @@
 import logging
 import pyspark.sql.functions as F
 
-logger = logging.getLogger("logger")
+logger = logging.getLogger("main_logger")
 
 
 def check_columns(df, cols_config):
