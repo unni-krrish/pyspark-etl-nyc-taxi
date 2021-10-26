@@ -1,6 +1,6 @@
 {
     "app_name": "NYCTaxiETL",
-    "input_dir": "",
-    "output_dir": "",
-    "logs_dir": ""
+    "input_dir": "/d/Big_Data_Projects/nyc_taxi_spark_app/data/input/",
+    "output_dir": "/d/Big_Data_Projects/nyc_taxi_spark_app/data/output/",
+    "logs_dir": "/d/Big_Data_Projects/nyc_taxi_spark_app/logs/"
 }

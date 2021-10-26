@@ -56,7 +56,7 @@ def main():
     logger.info("Finished running jobs. Stopping spark session...")
 
     # Call shell subprocess to copy log file to Storage
-    call(["gsutil", "cp", log_fpath, app_config.get("logs_dir")])
+    # call(["gsutil", "cp", log_fpath, app_config.get("logs_dir")])
 
     # Stop spark session
     spark.stop()

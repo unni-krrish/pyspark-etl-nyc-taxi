@@ -1,3 +1,6 @@
 /data
 /samples
+/logs
 /jobs/__pycache__
+/.vscode
+/.metals
